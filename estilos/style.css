@@ -40,8 +40,15 @@ section#login {
 }
 
 section#login > div#imagem{
+    display: block;
     background: #5f2c82 url(../imagens/build.jpg.jpg) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+
 }
